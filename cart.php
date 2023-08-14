@@ -124,10 +124,4 @@ if (isset($_GET['id'])){
     </div>
   </div>
 </section>
-<?php
-$pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
 
-if($pageWasRefreshed ) {
-  header("location: cart.php?id=0");
-}
-?>
