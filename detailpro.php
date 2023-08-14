@@ -27,7 +27,7 @@ if (isset($_GET['id'])){
             <div class="row gx-5">
               <aside class="col-lg-6">
                 <div class="border rounded-4 mb-3 d-flex justify-content-center">
-                  <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image" href="./images/">
+                  <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image" href="#">
                     <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit" src="./images/<?=$row['pimage']?>" />
                   </a>
                 </div>
