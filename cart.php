@@ -4,6 +4,7 @@ require_once('connection.php');
 
 $c = new Connect();
 $dblink = $c->connectToPDO();
+if ($_COOKIE['cc_usr']){
 
 if (isset($_GET['id'])){
     
@@ -32,7 +33,9 @@ if (isset($_GET['id'])){
 
     $rows = $re2->fetchAll(PDO::FETCH_BOTH);
 
-
+}else{
+  header("location: Login.php");
+}
 
 
 ?>
