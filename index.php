@@ -70,7 +70,7 @@ if($re->num_rows > 0){
            
           </div>
           <h5 class="card-title">
-            <a target="_blank" href="detail.php?id=<?=$row['pid']?>">
+            <a target="_blank" href="detailpro.php?id=<?=$row['pid']?>">
                <?=$row['pname']?>
             </a>
           </h5>
